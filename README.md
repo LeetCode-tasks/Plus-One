@@ -34,7 +34,8 @@ _Constraints:_
 
 _First method:_
 
-```var plusOne = function(digits) {
+```
+var plusOne = function(digits) {
 
     let carry = true
     for (let i = digits.length - 1; i >= 0; i -= 1) {
@@ -50,12 +51,15 @@ _First method:_
         }
     }
     return digits;
-}```
+}
+```
 
 
 _Second method:_
 
-```var plusOne = function(digits) {
+```
+var plusOne = function(digits) {
 
     return String(BigInt(digits.join('')) + BigInt(1)).split('')
-}```
+}
+```
