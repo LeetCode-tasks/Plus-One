@@ -7,7 +7,7 @@ You may assume the integer does not contain any leading zero, except the number 
 
  
 
-Example 1:
+_Example 1:_
 
 Input: digits = [1,2,3]
 Output: [1,2,4]
@@ -23,9 +23,10 @@ Input: digits = [0]
 Output: [1]
  
 
-Constraints:
+_Constraints:_
 
 1 <= digits.length <= 100
+
 0 <= digits[i] <= 9
 
 
@@ -33,7 +34,7 @@ Constraints:
 
 _First method:_
 
-var plusOne = function(digits) {
+`var plusOne = function(digits) {
 
     let carry = true
     for (let i = digits.length - 1; i >= 0; i -= 1) {
@@ -49,12 +50,12 @@ var plusOne = function(digits) {
         }
     }
     return digits;
-}
+}`
 
 
 _Second method:_
 
-var plusOne = function(digits) {
+`var plusOne = function(digits) {
 
     return String(BigInt(digits.join('')) + BigInt(1)).split('')
-}
+}`
