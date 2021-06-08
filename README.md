@@ -15,7 +15,7 @@ Output: [1,2,4]
 
 Explanation: The array represents the integer 123.
 
-Example 2:
+_Example 2:_
 
 Input: digits = [4,3,2,1]
 
@@ -23,7 +23,7 @@ Output: [4,3,2,2]
 
 Explanation: The array represents the integer 4321.
 
-Example 3:
+_Example 3:_
 
 Input: digits = [0]
 
