@@ -31,12 +31,8 @@ Constraints:
 
 **Solution:**
 
-_First method:___
+_First method:_
 
-/**
- * @param {number[]} digits
- * @return {number[]}
- */
 var plusOne = function(digits) {
 
     let carry = true
