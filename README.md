@@ -37,7 +37,7 @@ _Constraints:_
 0 <= digits[i] <= 9
 
 
-**Solution:**
+# Solution:
 
 _First method:_
 
